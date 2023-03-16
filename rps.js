@@ -85,9 +85,7 @@ class Menu {
 }
 
 class Generator {
-  constructor() {
-    this.crypto = require("crypto");
-  }
+  crypto = require("crypto");
 
   getHmacKey() {
     return this.crypto
